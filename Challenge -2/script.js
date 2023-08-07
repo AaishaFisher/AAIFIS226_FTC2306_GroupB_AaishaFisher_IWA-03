@@ -1,1 +1,1 @@
-console.log('Roles:', nwabisa.role, johanes.role, alex.role)
+console.log('Roles:', Nwabisa.role, johanes.role, alex.role)

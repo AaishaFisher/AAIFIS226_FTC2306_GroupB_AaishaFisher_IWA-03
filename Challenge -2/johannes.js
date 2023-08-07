@@ -1,6 +1,6 @@
-private firstname = "Johannes"
-private surname = "Potgieter"
-public role = "Intern"
+var firstname = "Johannes"
+var surname = "Potgieter"
+var role = "Intern"
 
-private display= firstname + " " + surname + " (" + role + ")"
+var display= firstname + " " + surname + " (" + role + ")"
 document.querySelector('#johannes').innerText = display
