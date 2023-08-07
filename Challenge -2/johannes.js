@@ -1,6 +1,9 @@
-var firstname = "Johannes"
-var surname = "Potgieter"
-var role = "Intern"
+const Johannes = {
+  firstName: "Johannes",
+  surName: "Potgieter",
+  role: "Intern",
+};
 
-var display= firstname + " " + surname + " (" + role + ")"
-document.querySelector('#johannes').innerText = display
+export const role = Johannes.role;
+
+document.querySelector("#johannes").innerText = Johannes.firstName + " " + Johannes.surName + " (" + Johannes.role + ")";

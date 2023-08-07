@@ -1,8 +1,11 @@
 
+const Alex = {
+    firstName: 'Alex',
+    surName: 'Naidoo',
+    role: 'Head of Marketing'
 
-const firstname = 'Alex';
-const surname = 'Naidoo';
-const role = 'Head of Marketing';
+};
 
-const display= firstname + " " + surname + " (" + role + ")"
-document.querySelector('#alex').innerText = display
+export const role = Alex.role;
+
+document.querySelector('#alex').innerText = Alex.firstName + " " + Alex.surName + " (" + Alex.role + ")";

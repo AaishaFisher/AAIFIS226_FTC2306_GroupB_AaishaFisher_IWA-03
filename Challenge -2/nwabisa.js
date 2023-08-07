@@ -1,10 +1,9 @@
   const nwabisa = { 
-     firstname = "Nwabisa"
-     surname = "Gabe"
-     role = "CEO"
-};
+     firstname: "Nwabisa",
+     surname: "Gabe",
+     role: "CEO"
+  };
 
-export nwabisa.role;
+  export const role = nwabisa.role;
 
-const display= firstname + " " + surname + " " + role
-document.querySelector('#nwabisa').innerText = display;
+document.querySelector('#nwabisa').innerText = nwabisa.firstname + " " + nwabisa.surname + " (" + nwabisa.role + ")";
